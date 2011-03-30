@@ -1,0 +1,21 @@
+Source: peppermint-artwork
+Section: x11
+Priority: optional
+Maintainer: Kendall Tristan Weaver <kendalltweaver@gmail.com>
+Build-Depends: debhelper (>= 7), intltool
+Standards-Version: 3.8.3
+Homepage: https://linuxpeppermint.com/
+
+Package: peppermint-artwork
+Architecture: all
+Depends: ${misc:Depends}
+Description: artwork for Peppermint
+ Artwork for Peppermint, contained the wallpaper and others specific images and 
+ logos.
+
+Package: peppermint-plymouth-theme
+Architecture: all
+Depends: plymouth, plymouth-label, ${misc:Depends}
+Provides: plymouth-theme
+Description: plymouth theme for Peppermint
+ This package contain a specific Peppermint theme for plymouth.

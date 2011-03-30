@@ -1,0 +1,9 @@
+README for Clearlooks-notSoDark GKT-2.0 theme
+
+Requires only the clearlooks engine, wich comes by default in almost every Linux distribution out there.
+
+This theme is released under GNU GPLv2. Please read the COPYING file for more
+info.
+
+To install:
+copy the Clearlooks-notSoDark folder to ./themes folder
