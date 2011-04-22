@@ -1,0 +1,125 @@
+! f: Peppermint Openbox Theme - based on Sodio by crimeboy
+! a: Kendall Weaver <kendall@peppermintos.com>
+! d: 2011.04.20
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! menu here:
+menu.title.text.font: snap
+menu.title.fontheight: 12
+menu.title.bg: flat gradient vertical
+menu.title.bg.color: #F3F3F3
+menu.title.bg.colorTo: #A2A2A2
+menu.title.text.color: #666666
+menu.title.text.justify: center
+
+menu.items.font: nu
+menu.items.fontheight: 10
+menu.items.bg: flat gradient vertical
+menu.items.bg.color: #FFFFFF
+menu.items.bg.colorTo: #E0E0E0
+menu.items.text.color: #666666
+menu.items.disableColor: #000000
+menu.items.justify: Left
+
+menu.items.active.bg: flat gradient vertical
+menu.items.active.bg.color: #555555
+menu.items.active.bg.colorTo: #AAAAAA
+menu.items.active.text.color: #EEEEEE
+menu.bullet.position: right
+
+! window here:
+window.font: nu
+window.fontheight: 12
+window.label.text.justify: center
+window.active.title.bg: flat gradient splitvertical
+window.active.title.bg.color: #484848
+window.active.title.bg.color.splitTo: #8B8B8B
+window.active.title.bg.colorTo: #040404
+window.active.title.bg.colorTo.splitTo: #AAAAAA
+
+window.inactive.title.bg: flat gradient splitvertical
+window.inactive.title.bg.color: #555555
+window.inactive.title.bg.color.splitTo: #999999
+window.inactive.title.bg.colorTo: #343434
+window.inactive.title.bg.colorTo.splitTo: #AAAAAA
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #EEEEEE
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #AAAAAA
+
+window.active.handle.bg: raised  gradient vertical
+window.active.handle.bg.color: #A2A2A2
+window.active.handle.bg.colorTo: #F3F3F3
+
+window.inactive.handle.bg: raised  gradient vertical
+window.inactive.handle.bg.color: #A2A2A2
+window.inactive.handle.bg.colorTo: #F3F3F3
+
+window.active.grip.bg: parentrelative
+window.active.grip.bg.color: #A2A2A2
+window.active.grip.bg.colorTo: #F3F3F3
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #A2A2A2
+window.inactive.grip.bg.colorTo: #F3F3F3
+
+window.active.button.unpressed.bg: flat gradient vertical
+window.active.button.unpressed.bg.color: #F3F3F3
+window.active.button.unpressed.bg.colorTo: #A2A2A2
+
+window.active.button.pressed.bg: sunken gradient vertical bevel1
+window.active.button.pressed.bg.color: #a2a2a2
+window.active.button.pressed.bg.colorTo: #f2f2f2
+window.active.button.pressed.bg.border.color: #000000
+window.active.button.pressed.image.color: #666666
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.bg.color: #000000
+window.active.button.unpressed.bg.colorTo: #000000
+window.active.button.unpressed.bg.border.color: #000000
+window.active.button.unpressed.image.color: #EEEEEE
+
+window.active.button.hover.bg: raised gradient splitvertical
+window.active.button.hover.bg.color: #333333
+window.active.button.hover.bg.color.splitTo: #777777
+window.active.button.hover.bg.colorTo: #121212
+window.active.button.hover.bg.colorTo.splitTo: #CCCCCC
+
+window.inactive.button.hover.bg: raised gradient splitvertical
+window.inactive.button.hover.bg.color: #333333
+window.inactive.button.hover.bg.color.splitTo: #777777
+window.inactive.button.hover.bg.colorTo: #121212
+window.inactive.button.hover.bg.colorTo.splitTo: #CCCCCC
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.bg.color: #F3F3F3
+window.inactive.button.unpressed.bg.colorTo: #A2A2A2
+window.inactive.button.unpressed.image.color: #999999
+window.inactive.button.toggled.focus: flat gradient vertical 
+window.inactive.button.toggled.unfocus: flat gradient vertical
+
+window.button.pressed.focus: sunken gradient vertical
+window.button.pressed.unfocus: sunken gradient vertical
+window.button.pressed.bg.color: #a2a2a2
+window.button.pressed.bg.colorTo: #f3f3f3
+window.button.pressed.imageColor: #999999
+
+
+window.active.client.color: #A2A2A2
+window.inactive.client.color: #FAFAFA
+
+! slit here:
+slit: bevel1 solid
+slit.bg.color: #F9F9F9
+slit.bg.colorTo: #F9F9F9
+
+*font: nu
+! Misc here:
+border.color: #555555
+padding.width: 2
+border.width: 1
+menu.border.width: 0
+window.client.padding.width: 0
+window.handle.width: 4
