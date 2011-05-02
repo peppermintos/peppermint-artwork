@@ -1,6 +1,32 @@
-This package is maintained by Kendall Weaver <kendalltweaver@gmail.com>
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
+Upstream-Name: Lubuntu Artwork
+Upstream-Maintainer: Lubuntu Team <lubuntu-desktop@lists.launchpad.net>
 
-All files in this package are licensed under General Public License version
-2 except peppermint-wisp.png and peppermint-wisp-wide.png which are licensed
-under Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 and are used
-with the permission ofthe original artist.
+Files: lib/
+Copyright: Copyright (C) 2009 Canonical Ltd.
+           Copyright (C) 2010 Rafael Laguna <rafaellaguna@gmail.com>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
+Files: usr/share/lxpanel/images/*.png
+       usr/share/lubuntu/images/*.png
+       usr/share/lubuntu/wallpapers/*.png
+       usr/share/lubuntu/lxdm/themes/Lubuntu/*
+Copyright: Copyright (C) 2010 Rafael Laguna <rafaellaguna@gmail.com>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
+Files: *
+Copyright: Copyright (C) 2008 Hong Jen Yee (PCMan)
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+Comment: Artwork is LXDE artwork for now
+
+Files: debian/*
+Copyright: Copyright 2009, Julien Lavergne <gilir@ubuntu.com>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.

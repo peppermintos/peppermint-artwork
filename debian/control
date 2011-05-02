@@ -1,21 +1,32 @@
 Source: peppermint-artwork
 Section: x11
 Priority: optional
-Maintainer: Kendall Tristan Weaver <kendalltweaver@gmail.com>
-Build-Depends: debhelper (>= 7), intltool
+Maintainer: Kendall Weaver <kendall@peppermintos.com>
+Build-Depends: debhelper (>= 7), intltool, icon-naming-utils
 Standards-Version: 3.8.3
-Homepage: https://linuxpeppermint.com/
+Homepage: http://peppermintos.com/
 
 Package: peppermint-artwork
 Architecture: all
-Depends: ${misc:Depends}
-Description: artwork for Peppermint
- Artwork for Peppermint, contained the wallpaper and others specific images and 
- logos.
+Depends: ${misc:Depends}, gtk2-engines-murrine, libnewt0.52 (>= 0.52.11-2ubuntu7)
+Description: artwork for Peppermint OS
+ Artwork for Peppermint, contained the wallpaper and others specific images
+ and logos.
 
-Package: peppermint-plymouth-theme
+Package: plymouth-theme-peppermint-logo
 Architecture: all
-Depends: plymouth, plymouth-label, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
 Provides: plymouth-theme
-Description: plymouth theme for Peppermint
+Replaces: plymouth (<< 0.8.1-1~), lubuntu-plymouth-theme
+Conflicts: peppermint-plymouth-theme
+Description: plymouth theme for Peppermint OS
  This package contain a specific Peppermint theme for plymouth.
+
+Package: plymouth-theme-peppermint-text
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Description: plymouth text theme for Peppermint OS
+ This package contain a blank black theme for plymouth.
+

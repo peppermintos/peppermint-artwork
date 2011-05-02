@@ -1,3 +1,15 @@
+peppermint-artwork (2.0.2) natty; urgency=low
+
+  * Changed peppermint-logo plymouth theme artwork.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  17 Apr 2011 20:36:28 -0400
+
+peppermint-artwork (2.0.1) natty; urgency=low
+
+  * Added blank plymouth text theme.
+
+ -- Kendall Weaver <kendall@peppermintos.com>  26 Apr 2011 18:07:33 -0400
+
 peppermint-artwork (2.0.0) natty; urgency=low
 
   * Updated for Peppermint Two.

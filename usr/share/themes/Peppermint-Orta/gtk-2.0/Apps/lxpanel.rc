@@ -1,0 +1,8 @@
+style "lxpanel"
+{
+	fg[NORMAL]	= "#DDDDDD"
+	fg[PRELIGHT]	= "#EEEEEE"
+	fg[ACTIVE]	= "#EEEEEE"
+}
+
+widget "*Panel*"	style "lxpanel"
